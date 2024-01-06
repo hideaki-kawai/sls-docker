@@ -7,7 +7,6 @@ services:
         - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
     tty: true
     stdin_open: true
-    #image: serverless
     working_dir: /app
     volumes:
       - .:/app
