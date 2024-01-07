@@ -3,7 +3,7 @@ frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: python3.9
+  runtime: python3.11
   region: 'ap-northeast-1'
 
 # you can overwrite defaults here
